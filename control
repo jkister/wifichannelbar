@@ -1,0 +1,9 @@
+Package: cloud.janbures.wifichannelbar
+Name: WifiChannelBar
+Depends: firmware (>=9.0), mobilesubstrate, libmoorecon | libstatusbar
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: WifiChannelBar is a tweak for iOS 9.0 - 10.2 that adds current wifi channel number to the status bar.
+Maintainer: Jan Bureš <jan.bures@live.com>
+Author: Jan Bureš <jan.bures@live.com>
+Section: Tweaks
