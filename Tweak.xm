@@ -140,6 +140,7 @@ WiFiNetworkRef (*wifiNetworkGetProperty)(WiFiNetworkRef, CFStringRef);
     self.wifiTimer = nil;
     self.wifiLock = 0;
 
+   /*
     if (kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_10_0)
     {
         self.imagePrefix = @"WCB_";
@@ -148,6 +149,8 @@ WiFiNetworkRef (*wifiNetworkGetProperty)(WiFiNetworkRef, CFStringRef);
     {
         self.imagePrefix = @"WCB9_";
     }
+   */
+    self.imagePrefix = @"WCB_";
     HBLogDebug(@"Image prefix: %@", self.imagePrefix);
     %orig;
 
